@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE10"><![endif]-->
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="shortcut icon" href="{{ url_for('static', filename='images/favicon.png') }}">
+
+	<title>포빅생명 - 최고를 향해</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/icon/et-line-font.css') }}">
+
+	<!-- reset CSS -->
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/reset.css') }}">
+
+	<!-- Bootstrap core CSS -->
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+	
+	<!-- icon CSS -->
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/font-awesome.css') }}">
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/Stroke-Gap-Icons.css') }}">
+
+	<!-- Themify icons -->	
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/hover.css') }}">
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/animate.css') }}">
+
+	<!-- Revelation Slider -->
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/jquery.fancybox.css') }}">
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/testimonial.css') }}">
+
+	<!-- owl carousel CSS -->
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/owl.carousel.css') }}">
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/owl.theme.css') }}">
+
+	<!-- Main style CSS -->
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+	<!-- Responsive CSS -->
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/responsive.css') }}">
+
+
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	<script src="js/html5shiv.js"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+
+<!-- Start Loading -->
+
+<section class="loading-overlay">
+	<div class="Loading-Page">
+		<h1 class="loader">Loading...</h1>
+	</div>
+</section>
+
+<!-- End Loading  -->
+
+
+<div class="content-wrap">
+    <nav id="primary-menu" class="navbar style-1">
+        <div class="row" style = "background-color:#FFC045;">
+            <div class="container mobile-heading">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="logo" href="/">
+						<img src="{{ url_for('static', filename='images/logo/logo2.png')}}">
+                    </a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse pull-right" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-left">
+						<li>
+							<a href="/" style = "font-size:1.45em;">HOME</a>
+						</li>
+
+                        <!-- li end -->
+                        <li class="has-dropdown">
+                            <a href="#" data-toggle="dropdown" class="dropdown-toggle" style="font-size:1.3em; font-weight:bold">회사소개</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="about">포빅생명</a>
+								</li>
+								<li>
+									<a href="our_agent">임원진</a>
+								</li>
+
+                            </ul>
+                        </li>
+                        <!-- li end -->
+                        <li class="has-dropdown">
+                            <a href="#" data-toggle="dropdown" class="dropdown-toggle" style="font-size:1.3em; font-weight:bold">보험상품</a>
+                            <ul class="dropdown-menu">
+								<li>
+									<a href="product_recommend">상품추천 서비스 <span class="new">New</span></a>
+								</li>
+                                <li>
+                                    <a href="pricing_table">보험 상품</a>
+								</li>
+								<li>
+                                    <a href="pension_product">퇴직 연금</a>
+                                </li>
+                                <li>
+                                    <a href="insurance_product">보험계약 대출 서비스</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- li end -->
+                        <li class="has-dropdown">
+                            <a href="#" data-toggle="dropdown" class="dropdown-toggle" style="font-size:1.3em; font-weight:bold">고객센터</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="FAQs">자주 묻는 질문</a>
+                                </li>
+                                <li>
+                                    <a href="contact">찾아오시는길</a>
+                                </li>
+
+                            </ul>
+                        </li>
+                        <!-- li end -->
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </div>
+    </nav>
+    </header>
+    <!-- End  Header -->
+
+		<!-- Start Pages Title  -->
+
+		<section id="Page-title" class="Page-title-Style1">
+			<div class="color-overlay"></div>
+			<div class="container inner-img">
+				<div class="row">
+					<div class="Page-title">
+						<div class="col-md-12 text-center">
+							<div class="title-text">
+								<h6>　<br>　<br>　<br>　<br>　<br>　<br>　<br>　<br>　<br>　<br>　<br>　<br>친절하게 도와드리겠습니다<br></h6>
+								<h2 class="page-title">　<br>자주 묻는 질문<br>　<br>　<br>　</h2>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- End Pages Title  -->
+
+		<!-- Start Faq Page -->
+
+		<section id="page-not-found" class="light-wrapper">
+			<div class="container inner">
+				<div class="row">
+					<div class="col-md-9 col-sm-8">
+						<div class="panel-group faq-group" id="accordion">
+
+							<!--Start Collapse-->
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse1"><span class="num">1</span> 이용등록이란 무엇인가요? 왜 해야 하나요?</a> </h4>
+								</div>
+								<div id="collapse1" class="panel-collapse collapse in">
+									<div class="panel-body">개편된 포빅생명 디지털채널 이용을 위해 딱 한번 '이용등록'하여 기존 등록된 고객정보를 확인하고 변경된 약관에 동의하는 절차입니다.<br>　<br>
+
+										⊙ 기존 회원가입 고객도 개편된 포빅생명에 '처음 방문'하셨다면 '이용등록'부터 해주세요.<br>
+										
+										⊙ '이용등록'은 어느 채널(PC, 모바일웹 & 앱)에서든 딱 한번만 하시면 됩니다.<br>
+										
+										⊙ 포빅생명 계약이 없는 고객은 ‘이용등록’할 수 없습니다.<br>　<br>
+										
+										이용등록 후 로그인하면, 간편인증 수단(간편비밀번호, 지문 or FaceID)을 추가 등록해서 로그인할 수 있습니다. 또한, 타금융기관 OTP기기를 등록하면 거래한도 상향과 5,000만원 이상 고액거래도 편리하게 이용할 수 있습니다.</div>
+								</div>
+							</div>
+							<!--Start Collapse-->
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse2"><span class="num">2</span> 이용등록 해지(회원탈퇴)는 어떻게 합니까? </a><span class="label bg-green">important!</span> </h4>
+								</div>
+								<div id="collapse2" class="panel-collapse collapse">
+									<div class="panel-body">포빅생명 디지털채널 PC로 로그인 후 [MY포빅생명 > 개인정보관리 > 이용등록해지]에서 할 수 있습니다.<br>　<br>
+
+										해지는 MY포빅생명 해지, ARS포함 해지 2가지가 있습니다. 해지 후에는 MY포빅생명 금융거래서비스 이용이 제한되며, ARS를 포함한 경우 ARS를 이용한 서비스도 제한됩니다.<br>　<br>
+										
+										다시 이용등록을 원하시면 포빅생명 디지털채널(PC, 모바일웹 & 앱)에서 언제든지 가능합니다.</div>
+								</div>
+							</div>
+							<!--Start Collapse-->
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse3"><span class="num">3</span> 보험금청구는 어떻게 하나요?</a> </h4>
+								</div>
+								<div id="collapse3" class="panel-collapse collapse">
+									<div class="panel-body">⊙ 포빅생명 디지털채널 로그인 후 [MY포빅생명 > 보험 > 보험금청구신청 > 보험금청구] 메뉴에서 신청 가능합니다.<br>　<br>
+
+										⊙ 가까운 포빅생명 플라자 내방을 통해 청구 가능합니다.<br>　<br>
+										
+										⊙ 우편(사망보험금제외)/FAX(본인부담총액 100만원 이하의 경우, 해당하며, 통원비는 금액관계없이 가능)/ 컨설턴트 방문접수 서비스(사망보험금제외)를 통해 청구 가능합니다.<br>　<br>
+										
+										<a href="#" style="color:#FFC045; font-weight:bold; font-size:1.2em;">[보험금청구 바로가가 - PC]</a><br>　<br>
+										
+										<a href="#" style="color:#FFC045; font-weight:bold; font-size:1.2em;">[보험금청구 바로가기 - 모바일]</a></div>
+								</div>
+							</div>
+							<!--Start Collapse-->
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse4"><span class="num">4</span> 전자금융거래계좌 등록이나 변경은 어떻게 하나요?</a> </h4>
+								</div>
+								<div id="collapse4" class="panel-collapse collapse">
+									<div class="panel-body">전자금융거래 전용계좌 등록 및 변경은 포빅생명 디지털채널, 콜센터, 플라자/지점 방문을 통해 기준에 따라 변경 가능합니다.<br>　<br>
+
+										⊙ 포빅생명 PC, 모바일웹 이용 시<br>
+										
+										[MY포빅생명 > 나의계약 > 개인정보관리 > 전자금융거래계좌 등록/변경 ]메뉴에서 변경할 수 있습니다. 자동이체 3회 이상 납입 실적 계좌 또는 이미 등록된 전자금융거래 전용계좌만 가능합니다.<br>　<br>
+										
+										⊙ 포빅생명 앱 이용 시<br>
+										
+										[전자금융거래계좌 등록/변경]과 함께 비대면실명인증을 이용하여 [신규 계좌 등록]도 가능합니다.<br>　<br>
+										
+										⊙ 고객센터 이용 시<br>
+										
+										계약자 본인이 직접 전화하여 기본계좌 변경만 가능합니다. 자동이체 3회 이상 납입 실적 계좌 또는 이미 등록된 전자금융거래 전용계좌만 가능합니다.<br>　<br>
+										
+										⊙ 플라자/지점 방문 시<br>
+										
+										계약자 본인이 주민등록증 지참 후 방문하여 계좌를 등록하거나 변경할 수 있으며, 반드시 발급 후 3개월이 경과한 계약자 본인명의 통장을 지참해야 합니다.. </div>
+								</div>
+							</div>
+							<!--Start Collapse-->
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse5"><span class="num">5</span> 부활 보험료를 카드로 납입할 수 있나요?</a> </h4>
+								</div>
+								<div id="collapse5" class="panel-collapse collapse">
+									<div class="panel-body">일부 보장성 상품에 한하여 계약자 명의의 포빅카드로 개인 별 신용한도에 따라 부활 가능 합니다.<br>
+										단, 보험계약대출중인 계약은 카드납이 불가 합니다.<br>　<br>
+
+										그 외 보다 자세한 문의사항은 포빅생명 고객센터(1234-5678)로 문의해주세요</div>
+								</div>
+							</div>
+							<!--Start Collapse-->
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse6"><span class="num">6</span> 자동이체 신청, 변경, 해지(해약)절차를 알려주세요.</a> </h4>
+								</div>
+								<div id="collapse6" class="panel-collapse collapse">
+									<div class="panel-body"> 아래 3가지 방법을 알려드립니다.<br>　<br>
+
+										■ 포빅생명 디지털채널 이용 고객의 경우(단, 예금주 = 계약자)<br>
+										
+										로그인 후 [MY포빅생명 > 보험 > 보험료납입 > 보험료자동이체] 메뉴에서 직접 신청 가능<br>　<br>
+										
+										■ 예금주(=계약자)가 고객센터(1234-5678)로 전화 신청<br>
+										
+										단, 고객센터를 통해 변경 가능한 예금주의 범위 : 계약자 본인, 배우자, 자녀, 형재, 자매, (양가)부모, 사위, 며느리, (양가)조부모, 손자, 손녀)<br>　<br>
+										
+										■ 예금주(=계약자)가 창구 내방<br>
+										
+										가까운 지점 및 지역단에 계약자께서 직접 신분증과 통장사본을 지참 방문하시어 변경 요청하실 수 있습니다.<br>　<br>
+										
+										<a href="#" style="color:#FFC045; font-weight:bold; font-size:1.2em;">[보험료자동이체 바로가기 - PC]<br>　<br></a>
+										
+										<a href="#" style="color:#FFC045; font-weight:bold; font-size:1.2em;">[보험료자동이체 바로가기 - 모바일]</a></a></div>
+								</div>
+							</div>
+							<!--Start Collapse-->
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse7"><span class="num">7</span> 외국인은 이용등록 할 수 없나요?</a> </h4>
+								</div>
+								<div id="collapse7" class="panel-collapse collapse">
+									<div class="panel-body">외국인도 포빅생명 계약을 보유하고 있다면 이용등록 가능합니다.<br>　<br>
+
+										※ 당사에 등록된 이름이 영문이면 이용등록 시 이름도 영문으로, 한글이라면 한글로 입력이 되어야 하므로 등록시 주의해 주세요. </div>
+								</div>
+							</div>
+							<!--Start Collapse-->
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse8"><span class="num">8</span> 사고보험금 청구 하려는데 앱을 설치하라고 합니다.</a> </h4>
+								</div>
+								<div id="collapse8" class="panel-collapse collapse">
+									<div class="panel-body">자금세탁방지(AML) 대상자는 포빅생명 모바일앱을 통한 신분증 촬영 및 확인이 필요합니다. <br>　<br>
+
+										※ '20.1월 금융감독원 유권해석에 따라 고객님께서 금융기관과 거래시(보험금청구 포함)에는 계약자의 종합적 위험검증과, 자금세탁방지를 위한 특정금융거래정보의 보고 및 이용등의 법률을 적용하여 4/11일부터 신분증 실명인증과 고객님의 정보 확인 후 필요시 고객확인서를 제출하시도록 되어있습니다.<br>　<br>
+										
+										신원확인은 전 금융기관에서 시행하고 있으며, 1년 또는 3년 단위로 신원확인(주민등록증, 운전면허증 진위 확인)을 진행하고 있습니다.<br>　<br>
+										
+										※ 최초 신분증 진위여부를 확인한 날로부터 1년 또는 최대 3년 이내에는 추가 신원확인 절차 없이 금융 거래 가능합니다.<br>　<br>
+										
+										다만, 신원확인時 신분증 촬영 및 대외 행정기관의 진위여부 확인 절차가 필요하여 사진촬영이 가능한 모바일앱을 통해서만 처리 가능하며, 휴대폰에 공인인증서 등록이 필요한 점 참고 바랍니다. </div>
+								</div>
+							</div>
+							<!--Start Collapse-->
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse9"><span class="num">9</span> 오늘 청구하면 언제 지급됩니까?</a> </h4>
+								</div>
+								<div id="collapse9" class="panel-collapse collapse">
+									<div class="panel-body">지급청구시 매도펀드의 종류에 따라 지급일자가 달라집니다.<br>
+										만약 지급청구시 매도펀드가 원리금보장형인 경우에는 신청일+2영업일 이내에 지급이 완료되고,<br>
+										실적배당형 펀드가 포함되어 있는 경우에는 신청일+4영업일 이내에 지급이 됩니다.<br>
+										(해외펀드와 같이 매도결제가 오래 걸리는 경우는 지급일자가 더 늦어질 수 있음)<br>
+										지급청구 후 지급예정일은 My삼성생명 지급청구 후 바로 확인이 가능하시며<br>
+										해당 메뉴는 청구서비스-급여청구현황 화면에서 성명을 클릭하여 나타나는 팝업 화면에서 확인이 가능합니다.<br>
+										단, 신청완료후 출력된 청구서 상의 지급예정일자는 신청당일 심사가 되었을 경우이며 5시 이후 청구건은<br>
+										익일심사가 될 수 있으므로 청구서상 지급예정일보다 지연될수 있습니다.</div>
+								</div>
+							</div>
+							<!--Start Collapse-->
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse10"><span class="num">10</span> 금일 오전에 퇴직급여 신청을 하였습니다. 언제 지급이 됩니까?</a> </h4>
+								</div>
+								<div id="collapse10" class="panel-collapse collapse">
+									<div class="panel-body">퇴직보험은 오전신청시 오후 지급이 가능하였으나,<br>
+										퇴직연금은 펀드매도 및 매도결제가 완료되어야 지급이 가능합니다.<br>
+										최소 3일 이상의 기간이 필요하니 업무시 유의하시기 바랍니다. </div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-4 sidebar-right">
+						<div class="SideBar-Blog">
+							<div class="Categories-Blog widget">
+								<div class="Top-Title-SideBar">
+									<h3>Categories</h3>
+								</div>
+								<div class="Categories-Block">
+									<ul>
+										<li><a href="#"><i class="fa fa-angle-double-right"></i><p>전체</p></a><span>(312)</span></li>
+										<li><a href="#"><i class="fa fa-angle-double-right"></i><p>개인보험</p></a><span>(77)</span></li>
+										<li><a href="#"><i class="fa fa-angle-double-right"></i><p>단체보험</p></a><span>(42)</span></li>
+										<li><a href="#"><i class="fa fa-angle-double-right"></i><p>개인대출</p></a><span>(24)</span></li>
+										<li><a href="#"><i class="fa fa-angle-double-right"></i><p>퇴직연금</p></a><span>(45)</span></li>
+										<li><a href="#"><i class="fa fa-angle-double-right"></i><p>모바일</p></a><span>(19)</span></li>
+										<li><a href="#"><i class="fa fa-angle-double-right"></i><p>홈페이지</p></a><span>(37)</span></li>
+										<li><a href="#"><i class="fa fa-angle-double-right"></i><p>기타</p></a><span>(68)</span></li>
+
+									</ul>
+								</div>
+							</div>
+
+							<div class="Tag-Blog widget">
+								<div class="Top-Title-SideBar">
+									<h3>통합고객센터</h3>
+								</div>
+								<a style="color:dimgray">전화번호 : 1234-5678<br>　<br></a>
+								<a style="color:dimgray">해외 : +82-1-234-5678<br>　<br></a>
+								<a style="color:dimgray">콜센터 영업시간 : 09:00 ~ 17:30<br>　<br></a>
+								<a style="color:dimgray">지점 영업시간 : 08:00 ~ 19:00</a>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- End Faq Page -->
+
+		<!-- Start Footer -->
+
+		<footer id="footer" class="site-footer">
+			<div id="template-footer" role="contentinfo">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4 to-animate">
+							<h3 class="section-header section-title">About Us</h3>
+							<p>53년간 고객들과 함께해온 포빅생명<br />윤리경영과 사회공원 활동으로 정직하게 성장하며<br />기업시민의 역할을 적극적으로 실천하겠습니다.</p>
+							<p class="copy-right">&copy; 2020 POVIC life insurance<br>All Rights Reserved.<br>사업자등록번호 123-45-67890</p>
+						</div>
+
+						<div class="col-md-4 to-animate">
+							<h3 class="section-header section-title">Our Address</h3>
+							<ul class="contact-info">
+								<li><span><i class="fa fa-home"></i>인천 연수구 컨벤시아대로 165 포빅타워</span></li>
+								<li><span><i class="fa fa-phone"></i>+82 032-123-4567</span></li>
+								<li><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="#">help@poviclife.com</a></li>
+							</ul>
+						</div>
+
+						<div class="col-md-4 to-animate">
+							<h3 class="section-header section-title">Touch with Us</h3>
+							<div id="quickmessage"></div>
+							<form class="contact-form" method="post" action="#" name="contactform" id="contactform">
+								<div class="form-group">
+									<input type="text" name="name" class="form-control" id="quickname" placeholder="Name">
+								</div>
+								<div class="form-group">
+									<input type="email" name="email" class="form-control" id="quickemail" placeholder="Email">
+								</div>
+								<div class="form-group">
+									<textarea name="comments" class="form-control" id="comments" rows="7" placeholder="Message"></textarea>
+								</div>
+								<div class="form-group">
+									<input type="submit" id="btn-submit" class="btn btn-send-message btn-md" value="Send Message">
+								</div>
+							</form>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<!-- End Footer  -->
+
+	</div>
+
+	<!-- Back to top Link -->
+	<div id="to-top" class="main-bg"><span class="fa fa-chevron-up"></span></div>
+</div>
+
+<!-- Placed at the end of the document so the pages load faster -->
+<script type="text/javascript" src="{{ url_for('static', filename='js/jquery-1.11.3.min.js')}}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/bootstrap.min.js')}}"></script>
+
+<!-- SLIDER REVOLUTION SCRIPTS  -->
+<script type="text/javascript" src="{{ url_for('static', filename='rs-plugin/js/jquery.themepunch.plugins.min.js')}}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='rs-plugin/js/jquery.themepunch.revolution.min.js')}}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='rs-plugin/js/revslider-custom.js')}}"></script>
+
+
+<script type="text/javascript" src="{{ url_for('static', filename='js/jquery.nicescroll.min.js')}}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/jquery.easing.min.js')}}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/jquery.fancybox.js')}}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/jquery.fancybox.pack.js')}}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/jquery.fancybox-media.js')}}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/jquery.inview.min.js')}}"></script>
+
+<script type="text/javascript" src="{{ url_for('static', filename='js/modernizr.custom.js')}}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/classie.js')}}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/owl.carousel.min.js')}}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/wow.min.js')}}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/jquery.appear.js')}}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/jquery.countTo.js')}}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/smoothscroll.js')}}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/custom.js')}}"></script>
+</body>
+</html>
