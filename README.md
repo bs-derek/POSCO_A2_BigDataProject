@@ -6,7 +6,7 @@ POSCO 청년 AI Big Data 아카데미 9기 A반 2조 Big Data 프로젝트
 
 조원 : 김범수(조장), 강지영, 김효진, 배향운, 양혜지, 정지성, 최지영
 
-작업환경(OS) : Ubuntu18.04, Windows10 → 섞여있으니 python파일을 참고할 경우 경로 지정시 유의할 것.  
+작업환경(OS) : Ubuntu18.04, Windows10 → 섞여있으니 python파일을 참고할 경우 경로 지정에 유의할 것.  
 작업환경(분석 툴) : Python3.7(scikit-learn, seaborn, matplotlib 외 다수 라이브러리 사용)
 
 ---
